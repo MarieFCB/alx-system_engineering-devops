@@ -5,4 +5,5 @@
 4-lastlines : tail /etc/passwd
 5-firstlines : head /etc/passwd
 6-third_line : head -n 3 iacta | tail -n +3
-7-file : use echo command 
+7-file : use echo command
+8-cwd_state : ls -la > ls_cwd_content \ 
