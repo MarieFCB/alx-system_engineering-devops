@@ -14,4 +14,5 @@
 13-unique : sort | uniq -u \
 14-findthatword : grep root /etc/passwd \
 15-countthatword : grep -c "bin" /etc/passwd \
-16èwhatsnext : grep -A 3 "root" /etc/passwd \ 
+16èwhatsnext : grep -A 3 "root" /etc/passwd \
+17-hidethisword : grep -v "bin" /etc/passwd \ 
