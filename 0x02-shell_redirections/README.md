@@ -8,4 +8,5 @@
 7-file : use echo command
 8-cwd_state : ls -la > ls_cwd_content \
 9-duplicate_last_line : tail -1 < iacta >> iacta \
-10-no_more_js : find -name "*.js" -type f -delete \ 
+10-no_more_js : find -name "*.js" -type f -delete \
+11-directories 
