@@ -10,4 +10,5 @@
 9-duplicate_last_line : tail -1 < iacta >> iacta \
 10-no_more_js : find -name "*.js" -type f -delete \
 11-directories : find . -type d ! -path . -print | wc -1 \
-12-newest_files : ls -1t | head -10 \ 
+12-newest_files : ls -1t | head -10 \
+13-unique : sort | uniq -u \ 
