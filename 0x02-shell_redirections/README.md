@@ -13,4 +13,5 @@
 12-newest_files : ls -1t | head -10 \
 13-unique : sort | uniq -u \
 14-findthatword : grep root /etc/passwd \
-15-countthatword : grep -c "bin" /etc/passwd \ 
+15-countthatword : grep -c "bin" /etc/passwd \
+16èwhatsnext : grep -A 3 "root" /etc/passwd \ 
